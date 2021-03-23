@@ -1,0 +1,660 @@
+@font-face {
+    font-family: 'iconfont';
+    src        : url('../fonts/iconfont.eot');
+    src        : url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family            : "iconfont" !important;
+    font-size              : 16px;
+    font-style             : normal;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 导航栏------------------------------------------------------------------------------------------------------------ */
+.nav_bg {
+    height       : 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav_bg .nav .dropdown {
+    float: left;
+}
+
+.nav_bg .nav .dropdown .dt {
+    width           : 209px;
+    height          : 45px;
+    margin-right    : 20px;
+    line-height     : 45px;
+    text-align      : center;
+    color           : #fff;
+    font-size       : 16px;
+    background-color: #b1191a;
+}
+
+.nav_bg .nav .dropdown .dd {
+    width     : 207px;
+    height    : 465px;
+    margin-top: 2px;
+    border    : 1px solid #c81623;
+    border-top: 0;
+}
+
+
+.nav_bg .nav .dropdown .dd ul li a {
+    display         : block;
+    box-sizing      : border-box;
+    height          : 31px;
+    padding         : 0 10px;
+    line-height     : 31px;
+    text-align-last : left;
+    font-size       : 14px;
+    color           : #fff;
+    background-color: #c81623;
+
+}
+
+.nav_bg .nav .dropdown .dd ul li a::after {
+    float      : right;
+    font-family: "iconfont" !important;
+    content    : "\e65c";
+}
+
+.nav_bg .nav .dropdown .dd ul li a:hover {
+    color           : #c81623;
+    background-color: #fff;
+}
+
+.nav_bg .nav .navitems {
+    float: left;
+    width: 740px;
+}
+
+.nav_bg .nav .navitems ul li {
+    float      : left;
+    text-align : center;
+    line-height: 45px;
+}
+
+.nav_bg .nav .navitems ul li a {
+    display  : inline-block;
+    padding  : 0 20px;
+    font-size: 16px;
+    color    : #000;
+}
+
+.nav_bg .nav .navitems ul li a:hover {
+    color: #b1191a;
+}
+
+/* 焦点图------------------------------------------------------------------------------------------------------------ */
+.focus {
+    float : left;
+    width : 721px;
+    height: 455px;
+}
+
+.focus a {
+    display   : inline-block;
+    width     : 721px;
+    height    : 455px;
+    margin    : 10px 10px 0 -10px;
+    background: #fff url(../upload/banner.png) no-repeat;
+}
+
+/* 热点------------------------------------------------------------------------------------------------------------ */
+.newsflash {
+    float     : left;
+    height    : 371px;
+    width     : 247px;
+    margin-top: 10px;
+    border    : 1px solid #e8e8e7;
+}
+
+.newsflash .news_hd {
+    border-bottom: 1px dashed #e8e8e7;
+}
+
+.newsflash .news_hd h4 {
+    float      : left;
+    height     : 32px;
+    padding    : 0 15px;
+    font-size  : 14px;
+    line-height: 32px;
+
+}
+
+.newsflash .news_hd a {
+    float       : right;
+    margin-right: 15px;
+    font-family : 'iconfont';
+    line-height : 32px;
+}
+
+
+.newsflash ul {
+    height : 128px;
+    padding: 5px 15px;
+}
+
+.newsflash ul li {
+    width        : 217px;
+    padding      : 6px 0;
+    line-height  : 12px;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+.newsflash .lifeservise {
+    position: relative;
+    width   : 248px;
+    height  : 208px;
+}
+
+.newsflash .lifeservise::after {
+    position        : absolute;
+    left            : 111px;
+    top             : 1px;
+    width           : 12px;
+    height          : 15px;
+    content         : "";
+    background-image: url(../images/jian.png);
+}
+
+.newsflash .lifeservise div {
+    float       : left;
+    width       : 61px;
+    height      : 66px;
+    text-align  : center;
+    border-top  : 1px solid #e8e8e7;
+    border-right: 1px solid #e8e8e7;
+}
+
+.newsflash .lifeservise div a {
+    display: block;
+    width  : 100%;
+    height : 100%;
+}
+
+.newsflash .lifeservise div img {
+    margin: 6px 11.5px;
+}
+
+.newsflash .bargain a img {
+    width: 248px;
+}
+
+/* 推荐模块------------------------------------------------------------------------------------------------------------ */
+.recommend {
+    margin-top      : 10px;
+    height          : 163px;
+    background-color: #ebebeb;
+}
+
+.recommend .recommend_left {
+    float     : left;
+    width     : 206px;
+    height    : 163px;
+    border    : 0;
+    background: url(../images/recommend_left.png) no-repeat;
+}
+
+
+.recommend .recommend_bd {
+    float       : left;
+    width       : 248px;
+    height      : 143px;
+    margin      : 10px 0;
+    border-right: 1px solid #ddd;
+}
+
+.recommend .recommend_right {
+    border-right: 0;
+    width       : 247px;
+}
+
+.recommend .recommend_bd a {
+    display    : block;
+    width      : 100%;
+    height     : 100%;
+    text-align : center;
+    line-height: 143px;
+}
+
+.area_hd {
+    width     : 1170px;
+    margin    : 0 auto;
+    margin-top: 10px;
+    padding   : 10px 15px;
+    font-size : 18px;
+    color     : #333;
+}
+
+/* 猜你喜欢------------------------------------------------------------------------------------------------------------ */
+.guess {
+    height: 231px;
+    border: 1px solid #ededed;
+}
+
+
+.guess ul li {
+    float       : left;
+    width       : 199px;
+    height      : 231px;
+    border-right: 1px solid #ededed;
+}
+
+.guess ul li:last-of-type {
+    border: 0px;
+}
+
+.guess ul li>a {
+    display: block;
+    width  : 199px;
+    height : 160px;
+}
+
+.guess ul li:nth-child(1)>a {
+    background: url(../upload/commodity1.png) no-repeat center;
+}
+
+.guess ul li div {
+    height : 71px;
+    padding: 0 35px;
+}
+
+.guess ul li div span {
+    font-size: 18px;
+    color    : #df3033;
+}
+
+.guess ul li div a {
+    display      : block;
+    height       : 28px;
+    margin-bottom: 8px;
+    font-size    : 12px;
+    color        : #666;
+}
+
+.guess ul li:nth-child(2)>a {
+    background: url(../upload/commodity2.png) no-repeat center;
+}
+
+.guess ul li:nth-child(3)>a {
+    background: url(../upload/commodity3.png) no-repeat center;
+}
+
+.guess ul li:nth-child(4)>a {
+    background: url(../upload/commodity4.png) no-repeat center;
+}
+
+.guess ul li:nth-child(5)>a {
+    background: url(../upload/commodity5.png) no-repeat center;
+}
+
+.guess ul li:nth-child(6)>a {
+    background: url(../upload/commodity6.png) no-repeat center;
+}
+
+/* 有趣区------------------------------------------------------------------------------------------------------------ */
+.interesting {
+    height: 405px;
+    border: 1px solid #ededed;
+}
+
+.interesting .interesting_big {
+    float : left;
+    width : 403px;
+    height: 405px;
+}
+
+.interesting .interesting_big a {
+    display   : block;
+    width     : 100%;
+    height    : 100%;
+    background: #b8bddd url(../upload/interesting_big.png) no-repeat center;
+}
+
+.interesting .good_thing {
+    float       : left;
+    width       : 226px;
+    height      : 100%;
+    border-right: 1px solid #ededed;
+}
+
+.interesting .good_thing h5 {
+    height       : 32px;
+    text-align   : center;
+    line-height  : 32px;
+    font-size    : 14px;
+    color        : #333;
+    border-bottom: 1px dashed #ededed;
+}
+
+.interesting .good_thing a:nth-of-type(1) {
+    display      : block;
+    height       : 206px;
+    width        : 100%;
+    border-bottom: 1px solid #ededed;
+    background   : #fff url(../upload/good_thing1.png) no-repeat right center;
+}
+
+.interesting .good_thing a:nth-of-type(2) {
+    display   : block;
+    height    : 165px;
+    width     : 100%;
+    background: #fff url(../upload/good_thing2.png) no-repeat right bottom;
+}
+
+.interesting .brand {
+    float           : left;
+    width           : 399px;
+    height          : 405px;
+    background-color: #f7f7f7;
+}
+
+.interesting .brand h5 {
+    height       : 32px;
+    text-align   : center;
+    line-height  : 32px;
+    font-size    : 14px;
+    color        : #333;
+    border-bottom: 1px dashed #ededed;
+}
+
+.interesting .brand a:nth-of-type(1) {
+    display      : block;
+    width        : 405px;
+    height       : 206px;
+    background   : url(../upload/brand1.png) no-repeat center right;
+    border-bottom: 1px solid #ededed;
+}
+
+.interesting .brand a:nth-of-type(2) {
+    float       : left;
+    width       : 199px;
+    height      : 165px;
+    background  : url(../upload/brand2.png) no-repeat bottom right;
+    border-right: 1px solid #ededed;
+}
+
+.interesting .brand a:nth-of-type(3) {
+    float     : left;
+    width     : 199px;
+    height    : 165px;
+    background: url(../upload/brand3.png) no-repeat bottom right;
+
+}
+
+.interesting>a {
+    float     : left;
+    width     : 171px;
+    height    : 405px;
+    background: url(../upload/brands.png) no-repeat bottom right;
+}
+
+/* 楼层区------------------------------------------------------------------------------------------------------------ */
+/* 地基 */
+.floor section .floor_hd {
+    margin-top : 20px;
+    padding    : 10px 0;
+    line-height: 18px;
+}
+
+.floor section .floor_hd h4 {
+    float    : left;
+    font-size: 18px;
+    color    : #c81623;
+}
+
+.floor section .floor_hd ul {
+    float     : right;
+    margin-top: 6px;
+}
+
+.floor section .floor_hd ul li {
+    float      : right;
+    padding    : 0 16px;
+    line-height: 12px;
+}
+
+.floor section .floor_hd ul li:nth-child(2n) {
+    width           : 1px;
+    height          : 12px;
+    padding         : 0;
+    background-color: #666;
+}
+
+.floor section .floor_bd {
+    height          : 360px;
+    background-color: #f9f9f9;
+    border-top      : 2px solid #c81623;
+}
+
+.floor section .floor_bd .first_area {
+    float : left;
+    width : 210px;
+    height: 360px;
+
+}
+
+.floor section .floor_bd .first_area ul li {
+    float        : left;
+    width        : 87px;
+    height       : 32px;
+    margin-left  : 12px;
+    line-height  : 32px;
+    text-align   : center;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor section .floor_bd .first_area>a {
+    float : left;
+    width : 210px;
+    height: 260px;
+
+}
+
+.floor section .floor_bd .second_area {
+    float : left;
+    width : 329px;
+    height: 360px;
+}
+
+.floor section .floor_bd .second_area a {
+    display: block;
+    width  : 100%;
+    height : 100%;
+
+}
+
+.floor section .floor_bd .third_area {
+    float        : left;
+    width        : 219px;
+    height       : 359px;
+    border-right : 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor section .floor_bd .third_area a:first-child {
+    display      : block;
+    width        : 219px;
+    height       : 179px;
+    border-bottom: 1px solid #ededed;
+
+}
+
+.floor section .floor_bd .third_area a:last-child {
+    display: block;
+    width  : 219px;
+    height : 179px;
+
+}
+
+.floor section .floor_bd .forth_area {
+    float        : left;
+    width        : 220px;
+    height       : 359px;
+    border-right : 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor section .floor_bd .forth_area a {
+    display: block;
+    width  : 100%;
+    height : 100%;
+
+}
+
+.floor section .floor_bd .fifth_area {
+    float        : left;
+    width        : 219px;
+    height       : 359px;
+    border-right : 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.floor section .floor_bd .fifth_area a:first-child {
+    display      : block;
+    width        : 219px;
+    height       : 179px;
+    border-bottom: 1px solid #ededed;
+
+}
+
+.floor section .floor_bd .fifth_area a:last-child {
+    display: block;
+    width  : 219px;
+    height : 179px;
+}
+
+.floor section .floor_foot {
+    margin-top: 20px;
+    width     : 1200px;
+    height    : 65px;
+}
+
+/* 一楼 */
+.floor1_1 {
+    background: url(../upload/floor1_1.png) no-repeat center;
+}
+
+.floor1_2 {
+    background: #aed6d8 url(../upload/floor1_2.png) no-repeat center;
+}
+
+.floor1_3 {
+    background: #fff url(../upload/floor1_3.png) no-repeat bottom right;
+}
+
+.floor1_4 {
+    background: #fff url(../upload/floor1_4.png) no-repeat bottom right;
+}
+
+.floor1_5 {
+    background: #fff url(../upload/floor1_5.png) no-repeat center;
+}
+
+.floor1_6 {
+    background: #fff url(../upload/floor1_6.png) no-repeat bottom right;
+}
+
+.floor1_7 {
+    background: #fff url(../upload/floor1_7.png) no-repeat bottom right;
+}
+
+/* 二楼 */
+.floor2_1 {
+    background: url(../upload/floor2_1.png) no-repeat center;
+}
+
+.floor2_2 {
+    background: #c6e8b6 url(../upload/floor2_2.png) no-repeat center;
+}
+
+.floor2_3 {
+    background: #fff url(../upload/floor2_3.png) no-repeat bottom right;
+}
+
+.floor2_4 {
+    background: #fff url(../upload/floor2_4.png) no-repeat bottom right;
+}
+
+.floor2_5 {
+    background: #fff url(../upload/floor2_5.png) no-repeat center;
+}
+
+.floor2_6 {
+    background: #fff url(../upload/floor2_6.png) no-repeat bottom right;
+}
+
+.floor2_7 {
+    background: #fff url(../upload/floor2_7.png) no-repeat bottom right;
+}
+
+/* 三楼 */
+.floor3_1 {
+    background: url(../upload/floor3_1.png) no-repeat center;
+}
+
+.floor3_2 {
+    background: #d7aac9 url(../upload/floor3_2.png) no-repeat center;
+}
+
+.floor3_3 {
+    background: #fff url(../upload/floor3_3.png) no-repeat bottom right;
+}
+
+.floor3_4 {
+    background: #fff url(../upload/floor3_4.png) no-repeat bottom right;
+}
+
+.floor3_5 {
+    background: #fff url(../upload/floor3_5.png) no-repeat center;
+}
+
+.floor3_6 {
+    background: #fff url(../upload/floor3_6.png) no-repeat bottom right;
+}
+
+.floor3_7 {
+    background: #fff url(../upload/floor3_7.png) no-repeat bottom right;
+}
+
+/* 楼层区结束 */
+
+/* 电梯模块开始 */
+.elevator {
+    position   : fixed;
+    left       : 50%;
+    top        : 35%;
+    width      : 66px;
+    height     : 197px;
+    margin-left: -675px;
+    border     : 1px solid #ededed;
+}
+
+
+.elevator ul li {
+    text-align   : center;
+    line-height  : 32px;
+    border-bottom: 1px solid #ededed;
+}
+
+.elevator ul li a {
+    display: block;
+    width  : 66px;
+    height : 32px;
+    color  : #666;
+}
+
+.elevator ul li a:hover {
+    color           : #fff;
+    background-color: #c81623;
+}

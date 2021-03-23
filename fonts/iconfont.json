@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20060053",
+      "name": "course-down",
+      "font_class": "course-down",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "20060062",
+      "name": "course-up",
+      "font_class": "course-up",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "20060082",
+      "name": "to-back",
+      "font_class": "to-back",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "20060083",
+      "name": "right-arrow",
+      "font_class": "right-arrow",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    }
+  ]
+}
